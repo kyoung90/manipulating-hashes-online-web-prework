@@ -19,10 +19,9 @@ def first_challenge
     ele == "strawberry"
   end
     
-    return contacts
-  end 
 
   #remember to return your newly altered contacts hash!
   contacts
+  return contacts
 end
 
