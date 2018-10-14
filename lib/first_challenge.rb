@@ -14,9 +14,10 @@ def first_challenge
   }
 
   #your code here
-  contacts["Freddy Mercury"].delete_if do |key, value|
-    if key == :favorite_icecream_flavors && value[0] == "Strawberry"
-    end 
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if do |ele|
+  
+    ele = "strawberry"
+  end
     
     return contacts
   end 
